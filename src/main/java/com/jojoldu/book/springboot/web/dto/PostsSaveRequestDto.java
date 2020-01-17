@@ -6,8 +6,8 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-@Getter
-@NoArgsConstructor
+@Getter //get 메소드 생성
+@NoArgsConstructor //기본 생성자 자동 추가
 public class PostsSaveRequestDto {
 
     private String title;
